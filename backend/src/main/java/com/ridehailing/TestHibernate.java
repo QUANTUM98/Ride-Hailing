@@ -45,7 +45,7 @@ public class TestHibernate {
             vehicle.setYear(2021);
             session.save(vehicle);
 
-            // ================= Ride =================
+            // ================= Ride ==================
             Ride ride = new Ride();
             ride.setRider(rider);
             ride.setDriver(driver);
